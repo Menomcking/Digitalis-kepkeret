@@ -1,1 +1,16 @@
+.dark-mode{
+    background-color: #000;
+    color: white;
+}
+footer{
+    margin-top: auto;
+    size: 120px;
+    background-color: aqua;
+    color: yellow;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 

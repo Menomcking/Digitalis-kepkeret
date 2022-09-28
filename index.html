@@ -6,9 +6,36 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </head>
 <body>
-    <p>This is a template</p>    
+    <div class="container"> 
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                A kép URL-je: 
+                <input type="url" id="url">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                A kép szélessége (pixelben megadva):
+                <input type="number" id="szelesseg">px
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                A képkeret vastagsága:
+                <input type="number" id="keretvastag">px
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                A képkeret színe:
+                <input type="color" id="keretszin">px
+            </div>
+        </div>
+    </div>
+    <image id="img"></image>
+    <footer>
+        <h3>Fügedi Patrik</h3>
+        <h4>2/14.T</h4>
+        <button id="darkmode">Dark mode</button>
+    </footer>
     <script src='main.js'></script>
 </body>
 </html>
